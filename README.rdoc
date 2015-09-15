@@ -1,3 +1,0 @@
-= redmine_users_visibility
-
-Description goes here
