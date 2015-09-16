@@ -8,8 +8,8 @@ Redmine::Plugin.register :redmine_users_visibility do
 
 
   ActionDispatch::Callbacks.to_prepare do
+      require 'redmine_users_visibility/patches/issue_query_patch'
       require 'redmine_users_visibility/patches/role_patch'
-      require 'redmine_users_visibility/patches/principal_patch'
   end
 
 end

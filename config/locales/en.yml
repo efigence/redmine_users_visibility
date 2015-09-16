@@ -1,3 +1,3 @@
 # English strings go here for Rails i18n
 en:
-  label_users_visibility_all_users: All users
+  label_members_of_visible_projects_with_locked: Members of visible projects with locked
